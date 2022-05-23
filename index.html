@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>The Interest Calculator</h2>
+    <div>
+      <input type="number" class="amount" placeholder="Enter the amount" />
+      <input
+        type="number"
+        class="percentage"
+        placeholder="Enter the percentage %"
+      />
+
+      <button class="button-check-pushable check" id="check" role="button">
+        <span class="button-check-shadow"></span>
+        <span class="button-check-edge"></span>
+        <span class="button-check-front text"> Check </span>
+      </button>
+      <button class="button-clear-pushable clear" role="button">
+        <span class="button-clear-shadow"></span>
+        <span class="button-clear-edge"></span>
+        <span class="button-clear-front text"> Clear </span>
+      </button>
+    </div>
+
+    <div class="interest">
+      <p class="interest-label">Monthly Interest</p>
+      <p class="interest-calc" id="interest">0</p>
+    </div>
+
+    <div class="yearly-interest">
+      <p class="interest-label">yearly Interest</p>
+      <p class="interest-calc" id="yearly-interest">0</p>
+    </div>
+    <div class="copyrightcontainer">
+      <a class="copyright" href="Copyright">Copyright © 2022- Amit Suthar</a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
