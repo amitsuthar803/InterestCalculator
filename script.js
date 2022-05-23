@@ -21,3 +21,6 @@ document.querySelector(".clear").addEventListener("click", function () {
   interestPanel.textContent = 0;
   yearlyinterestPanel.textContent = 0;
 });
+
+
+console.log('Welcome to the application');
